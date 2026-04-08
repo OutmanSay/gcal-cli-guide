@@ -1,8 +1,27 @@
 # gcal-cli-guide
 
-用命令行管理 Google 日历 | Manage Google Calendar from the terminal with `gog` CLI
+> 🧠 **AI Agent Skill** — Let your agent read and write Google Calendar for you, in natural language.
+> Works with [OpenClaw](https://github.com/openclaw/openclaw) · [Claude Code](https://claude.com/claude-code) · and any agent runtime that can shell out.
+
+用命令行管理 Google 日历 + AI Agent skill 模板 | Manage Google Calendar from the terminal with `gog` CLI + AI agent skill template
 
 基于 [gogcli](https://github.com/AdrianLunworton/gogcli)，提供完整的中文使用指南和 AI Agent 集成模板。
+
+## What's this?
+
+这是一个 **AI agent skill 模板 + 中文使用指南**。核心是教你如何让 AI agent 理解自然语言指令并自动调用 `gog` CLI 操作 Google 日历。
+
+跟你的 agent 说：
+- *"明天下午 3 点有啥会？"* → agent 调 `gog events` 查询
+- *"帮我约个周五上午 10 点和朋友的会议"* → agent 调 `gog create` 创建事件
+- *"把明天 2 点那个会改到 3 点"* → agent 调 `gog update` 改时间
+
+**支持的 agent 运行时**：
+- [OpenClaw](https://github.com/openclaw/openclaw) —— 自托管多 agent 编排平台（仓库含完整 SKILL.md 模板）
+- [Claude Code](https://claude.com/claude-code) —— 可通过 bash tool 调用
+- 任何支持 shell 执行的 agent 框架（Cursor / Aider / Codex CLI / Continue / ...）
+
+**也能当纯命令行工具用**：不用 agent 直接在 terminal 里跑 `gog` 也完全可以。
 
 ## 为什么用命令行管日历
 
