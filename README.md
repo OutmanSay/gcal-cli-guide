@@ -1,4 +1,4 @@
-# gcal-cli-guide
+# 🧠 AI Agent Skill: gcal-cli-guide
 
 > 🧠 **AI Agent Skill** — Let your agent read and write Google Calendar for you, in natural language.
 > Works with [OpenClaw](https://github.com/openclaw/openclaw) · [Claude Code](https://claude.com/claude-code) · and any agent runtime that can shell out.
