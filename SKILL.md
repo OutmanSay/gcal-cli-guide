@@ -1,3 +1,21 @@
+---
+name: gcal-cli-guide
+description: >
+  Google Calendar 命令行操作指南 + 自然语言模板：用 `gog` CLI 读写日历、创建/修改/查询日程。
+  触发：日程记录、记下日程、查我明天有什么会、加个会议、Google 日历、gcal。
+  不触发：Apple 日历/提醒事项（那走 osascript）。
+metadata:
+  openclaw:
+    emoji: "📅"
+    requires:
+      bins:
+        - gog
+allowed-tools:
+- Read
+- Bash
+- Glob
+---
+
 # Google Calendar AI Agent Skill
 
 通过 `gog` CLI 管理 Google Calendar 的 AI Agent 技能模板。
